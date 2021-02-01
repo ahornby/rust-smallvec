@@ -74,6 +74,7 @@
 #![cfg_attr(feature = "specialization", allow(incomplete_features))]
 #![cfg_attr(feature = "specialization", feature(specialization))]
 #![cfg_attr(feature = "may_dangle", feature(dropck_eyepatch))]
+#![cfg_attr(feature = "const_generics", feature(min_const_generics))]
 #![deny(missing_docs)]
 
 #[doc(hidden)]
